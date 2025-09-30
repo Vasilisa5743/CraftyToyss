@@ -34,7 +34,7 @@ CraftyToys — это уникальная онлайн-платформа дл�
 ```
 bash
 git clone https://github.com/Vasilisa5743/CraftyToys.git
-cd 
+cd CraftyToys
 ```
 ### 2. Открытие проекта в Visual Studio
 Запустите Visual Studio 2022
