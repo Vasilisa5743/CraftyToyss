@@ -33,8 +33,8 @@ CraftyToys — это уникальная онлайн-платформа дл�
 ### 1. Клонирование репозитория
 ```
 bash
-git clone https://github.com/Vasilisa5743/CraftyToys.git
-cd CraftyToys
+git clone https://github.com/Vasilisa5743/CraftyToyss.git
+cd CraftyToyss
 ```
 ### 2. Открытие проекта в Visual Studio
 Запустите Visual Studio 2022
