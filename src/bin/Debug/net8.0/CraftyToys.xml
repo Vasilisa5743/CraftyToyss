@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CraftyToys</name>
+    </assembly>
+    <members>
+        <member name="M:CraftyToys.Controllers.UserController.GetAll">
+            <summary>
+            Получение данных всех пользователей
+            </summary>
+        </member>
+        <member name="M:CraftyToys.Controllers.UserController.GetById(System.Int32)">
+            <summary>
+            Получение данных пользователя по Id
+            </summary>
+            <param name="id">Id пользователя</param>
+        </member>
+        <member name="M:CraftyToys.Controllers.UserController.Add(PepeProject.Contracts.User.CreateUserRequest)">
+            <summary>
+            Создание нового пользователя
+            </summary>
+            <remarks>
+            Пример запроса:
+            
+                POST
+                {
+                   "username": "testname",
+                   "email": "test@gmail.com",
+                   "passwordHash": "testhash",
+                   "isActive": true
+                }
+            
+            </remarks>
+            <param name="user">Добавляемые данные пользователя</param>
+        </member>
+        <member name="M:CraftyToys.Controllers.UserController.Update(System.Int32,PepeProject.Contracts.User.CreateUserRequest)">
+            <summary>
+            Обновление данных пользователя по Id
+            </summary>
+            <remarks>
+            Пример запроса:
+            
+                POST
+                {
+                   "username": "testname",
+                   "email": "test@gmail.com",
+                   "passwordHash": "testhash",
+                   "isActive": true
+                }
+            
+            </remarks>
+            <param name="id">Id пользователя</param>
+            <param name="userRequest">Обновленные данные пользователя</param>
+        </member>
+        <member name="M:CraftyToys.Controllers.UserController.Delete(System.Int32)">
+            <summary>
+            Удаление пользователя по Id
+            </summary>
+            <param name="id">Id пользователя</param>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,6 @@
+@CraftyToys_HostAddress = http://localhost:5103
+
+GET {{CraftyToys_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
